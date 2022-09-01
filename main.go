@@ -32,8 +32,8 @@ func initDB() {
 	config :=
 		database.Config{
 			ServerName: "localhost:3306",
-			User:       "root",
-			Password:   "",
+			User:       "mysqluser",
+			Password:   "password",
 			DB:         "learning_demo",
 		}
 
